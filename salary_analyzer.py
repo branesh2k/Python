@@ -14,3 +14,17 @@ def calculate_salary(base_salary, bonus_rate=0.1):
     float: The total salary including the bonus.
     """
     return base_salary * (1 + bonus_rate)
+
+
+def calculate_bonus(total_salary, base_salary):
+    """
+    calculate the bonus rate based on the total salary and the base salary
+
+    Args:
+        total salary (float): The total salary.
+        base salary (float): The base salary.
+
+    Returns:
+        float: The Bonus rate.
+    """
+    return (total_salary - base_salary)/base_salary
