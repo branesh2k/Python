@@ -1,4 +1,4 @@
 venv/
 .vscode/
 __pycache__/
-pandas/sample_data/
+3_pandas/sample_data/
